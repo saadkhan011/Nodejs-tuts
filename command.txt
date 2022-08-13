@@ -1,0 +1,16 @@
+ls command is for list of the folder
+cd comand is to change directory
+cd .. is to go back one directory
+hold alt to move cursor any where
+press ctrl+a to move the cursor at the top
+press ctrl+e to move the cursor at the end
+ctrl u will remove entire command
+mkdir make a new folder
+touch or code make new file
+start command open the file
+to open ina  specific software write "start code . command.txt
+to remove file "rm text.txt"
+to remove all file rm *
+pwd tells you your current folder
+rm -r jquery remove folder
+ls -a will show you all files including  hidden file

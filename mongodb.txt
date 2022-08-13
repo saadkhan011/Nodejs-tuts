@@ -1,0 +1,29 @@
+****************
+it will display all the dbs
+1.  Show dbs
+**************
+it will make that db
+2.  use <name>
+*******************
+to insert data
+collection is like table in mongodb     
+3. db.<collection name>.insertOne({name: "pen", price: 20})
+you can also use insertMany
+******************
+it will show in which db you are
+4. db 
+db.product.insertOne({
+    id: 2,
+    name: "pen",
+    price: 40,
+    review: [
+        {
+            name: "Sally",
+            rating: 5
+        },
+        {
+            name: "saad",
+            rating: 4
+        }
+    ]
+})

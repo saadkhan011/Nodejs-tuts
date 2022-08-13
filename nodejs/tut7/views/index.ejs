@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- we write js code like this  -->
+    <%if(kindOfDay === "Sunday" || kindOfDay === "Saturday"){ %>
+        <!-- we get data like this -->
+        <h1 style="color: orange;"><%=kindOfDay%></h1>
+        <% }
+     else{ %>
+        <h1 style="color: purple;"><%=kindOfDay%></h1>
+    <% } %>
+    <!-- <h1>Today is <%=kindOfDay%></h1> -->
+</body>
+</html>

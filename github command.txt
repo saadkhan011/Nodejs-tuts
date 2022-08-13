@@ -1,0 +1,35 @@
+----this will add the file to local repositary
+"git init" will initilize git in that specific folder where you are writing command.
+git status will show which file neddded to commit
+git add <file name> will add the file 
+git add . will add all the file in folder
+git commit -m "first commit" will add thefolder to staging area
+"git rm --cached -r ." it will remove file from local repositary
+
+--------- changes by mistake
+when you make some changes in the file by mistake then you can rollback by using these git command
+"git diff" will show you the difference before and after changing
+"git checkout <file name>" will remove the changes and add the prevoius file
+
+
+---------this will add the file to git repositary
+make repositary in git hub 
+git remote add origin https://github.com/saadkhan011/practiiise.git
+git push -u origin master
+this will add files to github
+
+.gitignore
+make a file of gitignore and write the name of file that you want to be ignored
+
+
+-----------------------branches in github
+"git branch <name>" you can add any branch
+"git branch" you can check on which branch you are working on
+"git checkout <name>" you can change the branch"
+"git merge <name>" will make the changes in both branch
+
+
+it will uninitilize git
+rm -rf .git
+it will remove origin
+git remote remove origin

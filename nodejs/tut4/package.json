@@ -1,0 +1,14 @@
+{
+  "name": "tut4",
+  "version": "1.0.0",
+  "description": "this is api tutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
